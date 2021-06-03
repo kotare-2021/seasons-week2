@@ -1,36 +1,91 @@
 
 {
-    "gallery": [
-  
-      {
-        "id": 1,
-        "name": "Winter",
-        "image": "/images/winter.jpg",
-        "discription": "",
-        "comments": ""
-        
-      },
-      {
-        "id": 2,
-        "name": "Summer",
-        "image": "/images/summer.jpg",
-        "discription": "What is Summer? Summer is the hot weather season. Temperatures run highest in summer, accompanied by, depending on the location, extreme humidity or dryness. It is also a time for heat waves and droughts, and even forest fires in some areas. Summer is a time for long days.",
-        "morePhotos": "https://unsplash.com/s/photos/summer"
-      },
-      {
-        "id": 3,
-        "name": "Spring",
-        "image": "/images/spring.jpg",
-        "discription": "What is Spring? Spring is the beginning of the cycle. New vegetation grows, and the weather is generally warm and sunny. Sometimes it rains in spring. It’s the time when the plants and animals come alive and out of hibernation.",
-        "morePhotos": "https://unsplash.com/s/photos/spring"
-      },
-      {
-        "id": 4,
-        "name": "Autumn",
-        "image": "/images/autumn.jpg",
-        "discription": "What is Autumn? Autumn marks the beginning of cool weather. It is the time when leaves turn yellow/brown, and animals begin preparations because “winter is coming”. It is also harvest season, which is a cause for celebration in most cultures.",
-        "morePhotos": "https://unsplash.com/s/photos/autumn"
-      }
-    ]
-  } 
-     
+  "gallery": [
+
+    {
+      "id": 1,
+      "name": "Winter",
+      "image": "/images/winter.jpg",
+      "description": "",
+      "comments": ""
+    },
+    {
+      "id": 2,
+      "name": "Summer",
+      "image": "/images/summer.jpg",
+      "description": "",
+      "comments": ""
+    },
+    {
+      "id": 3,
+      "name": "Spring",
+      "image": "/images/spring.jpg",
+      "description": "",
+      "comments": ""
+    },
+    {
+      "id": 4,
+      "name": "Autumn",
+      "image": "/images/autumn.jpg",
+      "description": "",
+      "comments": ""
+    }
+    {
+      "id": 5,
+      "name": "Autumn Dog",
+      "image": "/images/autumn dog.jpeg",
+      "description": "",
+      "comments": ""
+    }
+    {
+      "id": 6,
+      "name": "Autumn Puppy",
+      "image": "/images/autumn pup.png",
+      "description": "My puppy in Autumn",
+      "comments": ""
+    }
+    {
+      "id": 7,
+      "name": "Winter",
+      "image": "/images/snowman.jpeg",
+      "description": "",
+      "comments": ""
+    }
+    {
+      "id": 8,
+      "name": "Winter",
+      "image": "/images/winter trees.jpeg",
+      "description": "",
+      "comments": ""
+    }
+    {
+      "id": 9,
+      "name": "Summer",
+      "image": "/images/summer fruit.jpeg",
+      "description": "Morning fruit bowl",
+      "comments": ""
+    }
+    {
+      "id": 10,
+      "name": "Summer",
+      "image": "/images/summer iceblock.jpeg",
+      "description": "YUMMY ICE BLOCKS",
+      "comments": ""
+    }
+    {
+      "id": 11,
+      "name": "Spring",
+      "image": "/images/spring feild.jpeg",
+      "description": "",
+      "comments": ""
+    }
+    {
+      "id": 12,
+      "name": "Spring",
+      "image": "/images/spring tuplip.jpeg",
+      "description": "",
+      "comments": ""
+    }
+  ]
+} 
+   
