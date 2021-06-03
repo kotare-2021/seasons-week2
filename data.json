@@ -1,29 +1,34 @@
 
 {
   "seasons": [
+
     {
       "id": 1,
       "name": "Winter",
       "image": "/images/winter.jpg",
-      "discription": "What is Winter? Winter is the coldest period of the year. The time when animals hibernate, and vegetation decreases. There is a general lull in the environment and in areas where it snows, it is snowman time. The days are shortest in winter."
+      "discription": "What is Winter? Winter is the coldest period of the year. The time when animals hibernate, and vegetation decreases. There is a general lull in the environment and in areas where it snows, it is snowman time. The days are shortest in winter.",
+      "morePhotos": "https://unsplash.com/s/photos/winter"
     },
     {
       "id": 2,
       "name": "Summer",
       "image": "/images/summer.jpg",
-      "discription": "What is Summer? Summer is the hot weather season. Temperatures run highest in summer, accompanied by, depending on the location, extreme humidity or dryness. It is also a time for heat waves and droughts, and even forest fires in some areas. Summer is a time for long days."
+      "discription": "What is Summer? Summer is the hot weather season. Temperatures run highest in summer, accompanied by, depending on the location, extreme humidity or dryness. It is also a time for heat waves and droughts, and even forest fires in some areas. Summer is a time for long days.",
+      "morePhotos": "https://unsplash.com/s/photos/summer"
     },
     {
       "id": 3,
       "name": "Spring",
       "image": "/images/spring.jpg",
-      "discription": "What is Spring? Spring is the beginning of the cycle. New vegetation grows, and the weather is generally warm and sunny. Sometimes it rains in spring. It’s the time when the plants and animals come alive and out of hibernation."
+      "discription": "What is Spring? Spring is the beginning of the cycle. New vegetation grows, and the weather is generally warm and sunny. Sometimes it rains in spring. It’s the time when the plants and animals come alive and out of hibernation.",
+      "morePhotos": "https://unsplash.com/s/photos/spring"
     },
     {
       "id": 4,
       "name": "Autumn",
       "image": "/images/autumn.jpg",
-      "discription": "What is Autumn? Autumn marks the beginning of cool weather. It is the time when leaves turn yellow/brown, and animals begin preparations because “winter is coming”. It is also harvest season, which is a cause for celebration in most cultures."
+      "discription": "What is Autumn? Autumn marks the beginning of cool weather. It is the time when leaves turn yellow/brown, and animals begin preparations because “winter is coming”. It is also harvest season, which is a cause for celebration in most cultures.",
+      "morePhotos": "https://unsplash.com/s/photos/autumn"
     }
   ]
 } 

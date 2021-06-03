@@ -1,8 +1,12 @@
 <link rel="stylesheet" href="/main.css">
+<h1 class="title">What is your favorite season?</h1>
 <div class="container">
   {{#each seasons}}
   <div class="season-list">
-    <a href="/seasons/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
+    <a href="/seasons/{{id}}"><img class="img" src="{{image}}" alt="{{name}}"></a>
+    <div class="middle">
+        <div class="text-img">{{name}}</div>
+    </div>
   </div>
   {{/each}}
 </div>

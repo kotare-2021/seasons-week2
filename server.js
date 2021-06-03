@@ -5,7 +5,7 @@ const hbs = require('express-handlebars')
 const server = express()
 const fs = require('fs')
 
-// const routes = require('./routes')
+const routes = require('./routes')
 
 // Server configuration
 server.use(express.static('public'))
@@ -18,6 +18,7 @@ server.set('view engine', 'hbs')
 
 
 // Your routes/router(s) should go here
+server.use('/seasons', routes)
 
 server.get('/', (req, res) => {
     fs.readFile('./data.json', 'utf-8', (err, data) => {
@@ -28,7 +29,5 @@ server.get('/', (req, res) => {
     })
   })
 
-
-
-
+  
 module.exports = server
