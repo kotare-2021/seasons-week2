@@ -29,56 +29,56 @@
       "image": "/images/autumn.jpg",
       "description": "",
       "comments": ""
-    }
+    },
     {
       "id": 5,
       "name": "Autumn Dog",
       "image": "/images/autumn dog.jpeg",
       "description": "",
       "comments": ""
-    }
+    },
     {
       "id": 6,
       "name": "Autumn Puppy",
       "image": "/images/autumn pup.png",
       "description": "My puppy in Autumn",
       "comments": ""
-    }
+    },
     {
       "id": 7,
       "name": "Winter",
       "image": "/images/snowman.jpeg",
       "description": "",
       "comments": ""
-    }
+    },
     {
       "id": 8,
       "name": "Winter",
       "image": "/images/winter trees.jpeg",
       "description": "",
       "comments": ""
-    }
+    },
     {
       "id": 9,
       "name": "Summer",
       "image": "/images/summer fruit.jpeg",
       "description": "Morning fruit bowl",
       "comments": ""
-    }
+    },
     {
       "id": 10,
       "name": "Summer",
       "image": "/images/summer iceblock.jpeg",
       "description": "YUMMY ICE BLOCKS",
       "comments": ""
-    }
+    },
     {
       "id": 11,
       "name": "Spring",
       "image": "/images/spring feild.jpeg",
       "description": "",
       "comments": ""
-    }
+    },
     {
       "id": 12,
       "name": "Spring",
