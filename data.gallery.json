@@ -41,7 +41,7 @@
         "id": 6,
         "name": "Autumn Puppy",
         "image": "/images/autumn pup.png",
-        "description": "",
+        "description": "My puppy in Autumn",
         "comments": ""
       }
       {
@@ -62,14 +62,14 @@
         "id": 9,
         "name": "Summer",
         "image": "/images/summer fruit.jpeg",
-        "description": "",
+        "description": "Morning fruit bowl",
         "comments": ""
       }
       {
         "id": 10,
         "name": "Summer",
         "image": "/images/summer iceblock.jpeg",
-        "description": "",
+        "description": "YUMMY ICE BLOCKS",
         "comments": ""
       }
       {
