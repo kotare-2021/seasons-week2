@@ -15,7 +15,15 @@ router.get('/:id', (req, res) => {
       res.render('details', theOne)
     })
   })
+router.get('/gallery', (req, res) => {
+    fs.readFile('./data-gallery.json', 'utf-8', (err, data) => {
+        if (err) return res.status(500).send(err.message)
+        const parseInfo = JSON.parse(data)
+    
+        res.render('home', parseInfo)
+      })
 
+})
 
 
 
