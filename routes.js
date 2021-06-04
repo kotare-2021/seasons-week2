@@ -43,28 +43,28 @@ router.get('/add', (req, res) => {
 //       })
       
 // })
-router.post('/add', (req,res) => {
-    console.log("hi")
-    fs.readFile('./data-gallery.json', 'utf-8', (err, data) => {
-        if(err) console.log('noooope no edit for you') 
-        const parsedData = JSON.parse(data)
-        const newImg = {
-            id: parsedData.gallery.length + 1,
-            name: req.body.name,
-            image: req.body.image,
-            comments: req.body.comments,
-            description: req.body.description
+// router.post('/add', (req,res) => {
+//     console.log("hi")
+//     fs.readFile('./data-gallery.json', 'utf-8', (err, data) => {
+//         if(err) console.log('noooope no edit for you') 
+//         const parsedData = JSON.parse(data)
+//         const newImg = {
+//             id: parsedData.gallery.length + 1,
+//             name: req.body.name,
+//             image: req.body.image,
+//             comments: req.body.comments,
+//             description: req.body.description
             
-        }
-        parsedData.gallery.push(newImg)
-        const strData = JSON.stringify(parsedData, null, 2) 
-        fs.writeFile('./data.json', strData, (err) => {
-            if (err) console.log('ya done effed up again')
-            console.log('yay, we win!')
-            res.redirect('/gallery')
-        })
-    })
-})
+//         }
+//         parsedData.gallery.push(newImg)
+//         const strData = JSON.stringify(parsedData, null, 2) 
+//         fs.writeFile('./data.json', strData, (err) => {
+//             if (err) console.log('ya done effed up again')
+//             console.log('yay, we win!')
+//             res.redirect('/gallery')
+//         })
+//     })
+// })
 
 
 router.get('/:id', (req, res) => {
