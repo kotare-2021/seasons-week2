@@ -1,17 +1,33 @@
-<form class="form" action="/add" method="post">
+<div class="container"> <ul><form class="for" action="/add" method="post">
+            Add new image
 
-  <label for="id" class="form-item">
-    Id:
-    <input type="text" name="id" value="{{id}}">
+ <li> <label for="id" class="form-item">
+    Id:                 <input type="text" name="id" value="{{id}}">
   </label> 
+</li>
+<li>
   <label for="name" class="form-item">
     Name:
     <input type="text" name="name" value="{{name}}">
   </label>
+</li>
+
   <label for="season" class="form-item">
     Seasons:
   <input type="text" name="season" value="{{seasons}}">
   </label>
+
+
+  <label for="season" class="form-item">
+    Description:
+  <input type="text" name="season" value="{{description}}">
+  </label>
+
+
   <label for="snapper" class="form-item">
-      <input type="submit" name="" value="Submit">
+      <a class="add"href="/seasons/gallery">Add your photo</a>
+    {{!-- <input type="submit" name="" value="Submit"> --}}
+
 </form>
+</ul>
+</div>

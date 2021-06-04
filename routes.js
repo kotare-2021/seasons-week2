@@ -14,16 +14,54 @@ router.get('/gallery', (req, res) => {
       })
 
 })
+router.get('/add', (req, res) => {
+    res.render('add')
+})
 
-router.get('/add', (req,res)  => {
-    const id = Number(req.params.id)
+router.post('/add', (req, res) => {
     fs.readFile('./data-gallery.json', 'utf-8', (err, data) => {
         if (err) return res.status(500).send(err.message)
         const parsedData = JSON.parse(data)
-        const theOne = parsedData.gallery.find(season => season.id === id)
-        res.render('add', theOne)
+        const theOne = parsedData.gallery.includes(img => img.id === id)
+        if (theOne){
+            return new Error
+        } else {
+           
+            const updatedData = req.body
+        updatedData.id = Number(updatedData.id)
+        parsedData.gallery.push(updatedData)
+        
+        var newData = JSON.stringify(parsedData, null, 2)
+
+    
+       fs.writeFile('./data-gallery.json', newData, (err) => {
+        
+       })
+        }
+       res.redirect('/gallery')
       })
+      
 })
+// router.post('/add', (req,res) => {
+//     fs.readFile('./data-gallery.json', 'utf-8', (err, data) => {
+//         if(err) console.log('noooope no edit for you') 
+//         const parsedData = JSON.parse(data)
+//         const newImg = {
+//             id: parsedData.gallery.length + 1,
+//             name: req.body.name,
+//             comments: req.body.comments,
+//             description: req.body.description,
+//             image: req.body.image
+//         }
+//         parsedData.gallery.push(newImg)
+//         const strData = JSON.stringify(parsedData, null, 2) 
+//         fs.writeFile('./data.json', strData, (err) => {
+//             if (err) console.log('ya done effed up again')
+//             console.log('yay, we win!')
+//             res.redirect('/gallery')
+//         })
+//     })
+// })
 
 
 router.get('/:id', (req, res) => {

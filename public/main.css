@@ -62,11 +62,26 @@ a.add {
   font-family: 'Times New Roman', Times, serif;
 }
 .imgView{
-    display:table-row;
+    /* display:table-row;
     display:flexbox;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
     max-height: 350px;
     padding: 10px;
     border-radius: 20px;
+    align-items: center;
+}
+.galleryView{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-item{
+ text-align: left;
+ align-items: flex-start;
+
+}
+
+li{
+  text-align: left;
 }
