@@ -1,7 +1,10 @@
 <a class="nav" href="/"> Home </a>
 <div class="galleryView">
  {{#each gallery}}
+ <div>
   <img class="imgView" src="{{image}}" alt="{{description}}">
   <div><p>{{description}}</p></div>
+  </div>
+  
   {{/each}}
 </div>

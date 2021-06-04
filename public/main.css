@@ -58,7 +58,7 @@ a.add {
     
 }
 .gallery{
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
 }
 .imgView{
@@ -77,11 +77,13 @@ a.add {
   justify-content: center;
 }
 .form-item{
- text-align: left;
- align-items: flex-start;
-
+display: inline-block;
+width: 100px;
 }
 
-li{
-  text-align: left;
+/* li{
+  text-align: center;
+} */
+.h1 {
+  font-size: 100px;
 }
