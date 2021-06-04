@@ -15,6 +15,17 @@ router.get('/gallery', (req, res) => {
 
 })
 
+router.get('/add', (req,res)  => {
+    const id = Number(req.params.id)
+    fs.readFile('./data-gallery.json', 'utf-8', (err, data) => {
+        if (err) return res.status(500).send(err.message)
+        const parsedData = JSON.parse(data)
+        const theOne = parsedData.gallery.find(season => season.id === id)
+        res.render('add', theOne)
+      })
+})
+
+
 router.get('/:id', (req, res) => {
     console.log("id router", req.params.id)
     const id = Number(req.params.id)
@@ -27,16 +38,7 @@ router.get('/:id', (req, res) => {
   })
 
 
-
-
-
-
-
-
-
-
-
-
+  
 
 
 

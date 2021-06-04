@@ -15,6 +15,9 @@ server.use(express.static('public'))
 // Handlebars configuration
 server.engine('hbs', hbs({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
+server.get('/add', (req, res) => {
+    res.render('add', )
+  })
 
 
 // Your routes/router(s) should go here
