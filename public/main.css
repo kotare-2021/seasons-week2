@@ -57,3 +57,16 @@ a.add {
     color: rgb(216, 23, 184);
     
 }
+.gallery{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.imgView{
+    display:table-row;
+    display:flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 350px;
+    padding: 10px;
+    border-radius: 20px;
+}
