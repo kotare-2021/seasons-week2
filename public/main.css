@@ -61,16 +61,33 @@ a.add {
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
 }
+@media only screen and (min-width: 320px){
 .imgView{
-    /* display:table-row;
-    display:flexbox;
-    flex-wrap: wrap;
-    justify-content: center; */
+    
     max-height: 350px;
     padding: 10px;
     border-radius: 20px;
     align-items: center;
-}
+}}
+
+@media only screen and (min-width: 768px) { 
+  .imgView{
+    
+    max-height: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+}}
+
+@media only screen and (min-width: 1200px){
+  .imgView{
+    
+    max-height: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+}}
+
 .galleryView{
   display: flex;
   flex-wrap: wrap;
